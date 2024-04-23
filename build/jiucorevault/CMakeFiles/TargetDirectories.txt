@@ -1,0 +1,3 @@
+/Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/jiucorevault.dir
+/Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/edit_cache.dir
+/Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/rebuild_cache.dir

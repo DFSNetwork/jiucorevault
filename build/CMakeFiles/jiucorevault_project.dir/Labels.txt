@@ -1,0 +1,14 @@
+# Target labels
+ jiucorevault_project
+# Source files and their labels
+/Users/joe/dfs-core/jiucorevault/build/CMakeFiles/jiucorevault_project
+/Users/joe/dfs-core/jiucorevault/build/CMakeFiles/jiucorevault_project.rule
+/Users/joe/dfs-core/jiucorevault/build/CMakeFiles/jiucorevault_project-complete.rule
+/Users/joe/dfs-core/jiucorevault/build/jiucorevault_project-prefix/src/jiucorevault_project-stamp/jiucorevault_project-build.rule
+/Users/joe/dfs-core/jiucorevault/build/jiucorevault_project-prefix/src/jiucorevault_project-stamp/jiucorevault_project-configure.rule
+/Users/joe/dfs-core/jiucorevault/build/jiucorevault_project-prefix/src/jiucorevault_project-stamp/jiucorevault_project-download.rule
+/Users/joe/dfs-core/jiucorevault/build/jiucorevault_project-prefix/src/jiucorevault_project-stamp/jiucorevault_project-install.rule
+/Users/joe/dfs-core/jiucorevault/build/jiucorevault_project-prefix/src/jiucorevault_project-stamp/jiucorevault_project-mkdir.rule
+/Users/joe/dfs-core/jiucorevault/build/jiucorevault_project-prefix/src/jiucorevault_project-stamp/jiucorevault_project-patch.rule
+/Users/joe/dfs-core/jiucorevault/build/jiucorevault_project-prefix/src/jiucorevault_project-stamp/jiucorevault_project-test.rule
+/Users/joe/dfs-core/jiucorevault/build/jiucorevault_project-prefix/src/jiucorevault_project-stamp/jiucorevault_project-update.rule

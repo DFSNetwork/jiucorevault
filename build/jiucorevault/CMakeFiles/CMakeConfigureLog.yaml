@@ -1,0 +1,174 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      The target system is: Generic -  - wasm
+      The host system is: Darwin - 23.0.0 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: //usr/local/bin/eosio-cc 
+      Build flags: -O3
+      Id flags:  
+      
+      The output was:
+      255
+      wasm-ld: error: fatal failure: contract with no actions and trying to create dispatcher
+      Exit due to wasm-ld failure
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: //usr/local/bin/eosio-cc 
+      Build flags: -O3
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.wasm"
+      
+      The C compiler identification is Clang, found in:
+        /Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/3.27.7/CompilerIdC/CMakeCCompilerId.wasm
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: //usr/local/bin/eosio-cpp 
+      Build flags: -O3
+      Id flags:  
+      
+      The output was:
+      255
+      wasm-ld: error: fatal failure: contract with no actions and trying to create dispatcher
+      Exit due to wasm-ld failure
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: //usr/local/bin/eosio-cpp 
+      Build flags: -O3
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.wasm"
+      
+      The CXX compiler identification is Clang, found in:
+        /Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/3.27.7/CompilerIdCXX/CMakeCXXCompilerId.wasm
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/CMakeScratch/TryCompile-irRhhi"
+      binary: "/Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/CMakeScratch/TryCompile-irRhhi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-O3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/CMakeScratch/TryCompile-irRhhi'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_cd0a3/fast
+        gmake[3]: Entering directory '/Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/CMakeScratch/TryCompile-irRhhi'
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_cd0a3.dir/build.make CMakeFiles/cmTC_cd0a3.dir/build
+        gmake[4]: Entering directory '/Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/CMakeScratch/TryCompile-irRhhi'
+        Building C object CMakeFiles/cmTC_cd0a3.dir/CMakeCCompilerABI.c.obj
+        //usr/local/bin/eosio-cc   -O3    -v -MD -MT CMakeFiles/cmTC_cd0a3.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_cd0a3.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_cd0a3.dir/CMakeCCompilerABI.c.obj -c /usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCCompilerABI.c
+        clang version 9.0.1 (https://github.com/eosio/clang.git 6a2b43d5cb01f666af0dbfb31a3cbf2e17967909) (https://github.com/eosio/llvm d700c78db1918c7a2783c37a97d42d6fcd223e4d)
+        Target: x86_64-apple-darwin23.0.0
+        Thread model: posix
+        InstalledDir: /Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/CMakeScratch/TryCompile-irRhhi
+        Linking C executable cmTC_cd0a3.wasm
+        /usr/local/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd0a3.dir/link.txt --verbose=1
+        //usr/local/bin/eosio-ld  -v CMakeFiles/cmTC_cd0a3.dir/CMakeCCompilerABI.c.obj -o cmTC_cd0a3.wasm 
+        eosio-ld: Unknown command line argument '-v'.  Try: '//usr/local/bin/eosio-ld --help'
+        eosio-ld: Did you mean '  -L'?
+        gmake[4]: *** [CMakeFiles/cmTC_cd0a3.dir/build.make:100: cmTC_cd0a3.wasm] Error 1
+        gmake[4]: Leaving directory '/Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/CMakeScratch/TryCompile-irRhhi'
+        gmake[3]: *** [Makefile:127: cmTC_cd0a3/fast] Error 2
+        gmake[3]: Leaving directory '/Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/CMakeScratch/TryCompile-irRhhi'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/CMakeScratch/TryCompile-wO81W5"
+      binary: "/Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/CMakeScratch/TryCompile-wO81W5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-O3"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/CMakeScratch/TryCompile-wO81W5'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_81998/fast
+        gmake[3]: Entering directory '/Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/CMakeScratch/TryCompile-wO81W5'
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_81998.dir/build.make CMakeFiles/cmTC_81998.dir/build
+        gmake[4]: Entering directory '/Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/CMakeScratch/TryCompile-wO81W5'
+        Building CXX object CMakeFiles/cmTC_81998.dir/CMakeCXXCompilerABI.cpp.obj
+        //usr/local/bin/eosio-cpp   -O3    -v -MD -MT CMakeFiles/cmTC_81998.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_81998.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_81998.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang version 9.0.1 (https://github.com/eosio/clang.git 6a2b43d5cb01f666af0dbfb31a3cbf2e17967909) (https://github.com/eosio/llvm d700c78db1918c7a2783c37a97d42d6fcd223e4d)
+        Target: x86_64-apple-darwin23.0.0
+        Thread model: posix
+        InstalledDir: /Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/CMakeScratch/TryCompile-wO81W5
+        Linking CXX executable cmTC_81998.wasm
+        /usr/local/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81998.dir/link.txt --verbose=1
+        //usr/local/bin/eosio-ld  -v CMakeFiles/cmTC_81998.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_81998.wasm 
+        eosio-ld: Unknown command line argument '-v'.  Try: '//usr/local/bin/eosio-ld --help'
+        eosio-ld: Did you mean '  -L'?
+        gmake[4]: *** [CMakeFiles/cmTC_81998.dir/build.make:100: cmTC_81998.wasm] Error 1
+        gmake[4]: Leaving directory '/Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/CMakeScratch/TryCompile-wO81W5'
+        gmake[3]: *** [Makefile:127: cmTC_81998/fast] Error 2
+        gmake[3]: Leaving directory '/Users/joe/dfs-core/jiucorevault/build/jiucorevault/CMakeFiles/CMakeScratch/TryCompile-wO81W5'
+        
+      exitCode: 2
+...
